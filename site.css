@@ -23,6 +23,7 @@ main h1 {
 	background-color: #851944;
 	color: #FFF;
     padding: 25px;
+    font-size: 50px;
 }
 
 p {
@@ -35,11 +36,18 @@ blockquote, aside,  footer{
 blockquote{
     background-color: #D9E5E3;
     padding: 20px;
-    border-bottom: 10px solid #C2CCCA;
+    border: 10px solid #C2CCCA;
     margin: 0;
     width: 250px;
     /*  BOX-SIZING - Usada para aplicar a largura altura a todo o bloco */
     box-sizing: border-box;
+}
+
+/* article used to separate blog posts */
+article{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
 }
 aside{
     background-color: #3C1D3D;
@@ -52,10 +60,34 @@ footer{
 }
 nav a {
     color: #F2FFFC;
+    text-decoration: none;
 }
 ul{
     color: pink;
 }
+/* função display usada para acertar o tamanho da imagem no link */
 ul li a{
     color: inherit;
+}
+.icones-sociais{
+    display: inline-block;
+}
+.blogFooter{
+        background-color: #F2FFFC;
+        color: black;
+        border-bottom: 
+}
+.navegacaoSite{
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    padding: 20px;
+    text-align: center;
+}
+.leiaMais{
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
 }
