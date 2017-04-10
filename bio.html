@@ -20,7 +20,7 @@
 
                 <h2>Como trabalho</h2>
 
-                <blockquote><p>João é o melhor desenvolvedor front-end com quem já trabalhei. Muito eficiente e muito capaz. Recomendo sem dúvidas!</p> <cite>José Souza, Fiat</cite></blockquote>
+                <blockquote id="citacao"><p>João é o melhor desenvolvedor front-end com quem já trabalhei. Muito eficiente e muito capaz. Recomendo sem dúvidas!</p> <cite>José Souza, Fiat</cite></blockquote>
 
                 <p>Satisfazer meus clientes é prioridade. Para isso, garanto um processo Ude desenvolvimento altamente interativo, baseado em feedback contínuo. <strong>Não trabalho com escopo fechado</strong>: o cliente é que decide quando o produto está pronto.</p>
 
@@ -29,7 +29,7 @@
                 <h2>Experiência</h2>
 
                 <!-- blockquote é usado para separar uma frase importante, e cite é para apontar a pessoa que cita -->
-                <blockquote><p>João domina as tecnologias como ninguem</p>
+                <blockquote id="citacao"><p>João domina as tecnologias como ninguem</p>
                 <cite>Manoel Santos, Petrobrás</cite></blockquote>
 
                 <p>Já desenvolvi projetos para grandes empresas como <a href="http://www.bmw.com.br/pt/index.html">BMW</a>, <a href="https://www.uol.com.br/">UOL</a> e <a href="https://www.ibm.com/br-pt/">IBM</a>. Neles, o foco principal era entregar uma experiência imersiva e impactante para o usuário final sem descuidar do desempenho e da acessibilidade da página.</p>
@@ -47,9 +47,9 @@
                 <img src="eu.jpg" alt="Foto do João da Silva">
             </figure>
             <!-- aside é o conteudo que é colocado ao lado da pagina --> 
-            <aside>
-                <div>
-                    <h1>João da Silva</h1>
+            <aside class="navegacao-site">
+                <h1>João da Silva</h1>
+                <div>    
                     <nav id="sidebar">
                         <ul>
                             <li><a href="index.html">Home</a></li>
@@ -58,7 +58,24 @@
                             <li><a href="#">Blog</a></li>
                             <li><a href="contato.html">Contato</a></li>
                         </ul>
-                    </nav>
+                        <ul>
+                            <li class="icones-sociais">
+                            <a href="https://twitter.com/joaodasilva">
+                                <img src="twitter.png" alt="Twitter">
+                            </a>
+                            </li>
+                            <li class="icones-sociais">
+                            <a href="https://br.linkedin.com/pub/jo%C3%A3o-da-silva/32/4/508">
+                                <img src="linkedin.png" alt="Linkedin">
+                            </a>
+                            </li>
+                            <li class="icones-sociais">
+                            <a href="https://github.com/joaodasilva">
+                                <img src="github.png" alt="Github">
+                            </a>
+                            </li>
+                        </ul>
+                </nav>
                 </div>
             </aside>
         <!-- footer usado para o rodapé, o copy é uma entitdade HTML para copyright -->
