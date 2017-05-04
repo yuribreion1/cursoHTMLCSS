@@ -2,11 +2,20 @@ body {
 	font-family: "Crimson Text", "Times New Roman", serif;
 	background-color: #F2FFFC;
 	font-size: 120%;
-    line-height: 1.5;
+  line-height: 1.5;
+}
+header{
+	text-transform: uppercase;
+	font-size: 60px;
+	border-bottom: 10px solid black;
 }
 
 h1, h2 {
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+main{
+	float: left;
+	width: 85%;
 }
 main div{
     width: 720px;
@@ -28,6 +37,7 @@ main h1 {
 
 p {
 	text-align: justify;
+	padding: 15px;
 }
 blockquote, aside,  footer{
     padding: 20px;
@@ -39,8 +49,12 @@ blockquote{
     border: 10px solid #C2CCCA;
     margin: 0;
     width: 250px;
-    /*  BOX-SIZING - Usada para aplicar a largura altura a todo o bloco */
     box-sizing: border-box;
+}
+cite{
+	font-style: italic;
+	float: right;
+	display: block;
 }
 
 /* article used to separate blog posts */
@@ -61,6 +75,7 @@ footer{
 nav a {
     color: #F2FFFC;
     text-decoration: none;
+		display: block;
 }
 ul{
     color: pink;
@@ -94,7 +109,7 @@ ul li a{
         background-color: #F2FFFC;
         color: black;
 }
-.navegacaoSite{
+.navegacao-site{
     background-color: #3C1D3D;
     color: #F2FFFC;
     padding: 20px;
@@ -107,7 +122,29 @@ ul li a{
     font-size: 24px;
     text-align: center;
     background-color: #E6E7E8;
+		text-decoration: none;
 }
 .sidebar{
     text-transform: lowercase;
+}
+.fiat{
+	float: right;
+	margin: 30px;
+}
+.petrobras{
+	float: left;
+	margin: 30px;
+}
+.subtitle{
+	clear:both;
+}
+.foto-perfil, .navegacao-site{
+	float: right;
+	width: 15%;
+	border-bottom: 10px solid black;
+	border-left: 10px solid black;
+	box-sizing: border-box;
+}
+.rodape-bio{
+	clear: both;
 }

@@ -11,7 +11,9 @@
 	</head>
 	<body>
         <main>
+					<header>
             <h1>Blog</h1>
+					</header>
             <div>
                 <h2>O essencial de design responsivo</h2>
                 <time datetime="2017-03-05">5 de Março de 2017</time>
@@ -48,5 +50,44 @@
                 </article>
             </div>
         </main>
+				<!-- figure é usado para melhorar a semantica para imagens -->
+				<figure>
+						<!-- parametro alt usado junto com o img para dar uma descrição a imagem -->
+						<img src="eu.jpg" alt="Foto do João da Silva" class="foto-perfil">
+				</figure>
+				<!-- aside é o conteudo que é colocado ao lado da pagina -->
+				<aside class="navegacao-site">
+						<h1>João da Silva</h1>
+						<div>
+								<nav>
+										<ul class="sidebar">
+												<li><a href="index.html">Home</a></li>
+												<li><a href="portifolio.html">Portifólio</a></li>
+												<li><a href="bio.html">Sobre mim</a></li>
+												<li><a href="#">Blog</a></li>
+												<li><a href="contato.html">Contato</a></li>
+										</ul>
+										<ul class="icones-sociais">
+												<li>
+														<a href="https://github.com/joaodasilva" class="github">
+																Github
+														</a>
+												</li>
+												<li>
+														<a href="https://twitter.com/joaodasilva" class="twitter">
+																Twitter
+														</a>
+												</li>
+												<li>
+														<a href="https://br.linkedin.com/pub/joão-da-silva/32/4/508" class="linkedin">
+																LinkedIn
+														</a>
+												</li>
+										</ul>
+						</nav>
+						</div>
+				</aside>
+		<!-- footer usado para o rodapé, o copy é uma entitdade HTML para copyright -->
+		<footer class="rodape-bio">&copy; João da Silva 2014</footer>
 	</body>
 </html>
