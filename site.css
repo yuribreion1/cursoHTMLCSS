@@ -21,11 +21,6 @@ main div{
     width: 720px;
     margin: auto;
 }
-div{
-    width: 720px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 main h1 {
 	text-align: center;
@@ -73,8 +68,6 @@ footer{
     color: #F2FFFC;
 }
 nav a {
-    color: #F2FFFC;
-    text-decoration: none;
 		display: block;
 }
 ul{
@@ -109,12 +102,6 @@ ul li a{
         background-color: #F2FFFC;
         color: black;
 }
-.navegacao-site{
-    background-color: #3C1D3D;
-    color: #F2FFFC;
-    padding: 20px;
-    text-align: center;
-}
 .leiaMais{
     padding: 8px;
     margin: 16px;
@@ -126,6 +113,7 @@ ul li a{
 }
 .sidebar{
     text-transform: lowercase;
+		color: white;
 }
 .fiat{
 	float: right;
@@ -137,6 +125,7 @@ ul li a{
 }
 .subtitle{
 	clear:both;
+	font-size: 30px;
 }
 .foto-perfil, .navegacao-site{
 	float: right;
