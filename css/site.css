@@ -16,6 +16,7 @@ h1, h2 {
 main{
 	float: left;
 	width: 85%;
+	padding-bottom: 85px;
 }
 main div{
     width: 720px;
@@ -66,9 +67,15 @@ aside{
 footer{
     background-color: black;
     color: #F2FFFC;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		box-sizing: border-box;
 }
 nav a {
 		display: block;
+		text-decoration: none;
 }
 ul{
     color: pink;
@@ -88,15 +95,15 @@ ul li a{
 }
 
 .github {
-    background-image: url(github.png);
+    background-image: url(../img/github.png);
 }
 
 .twitter {
-     background-image: url(twitter.png);
+     background-image: url(../img/twitter.png);
 }
 
 .linkedin {
-    background-image: url(linkedin.png);
+    background-image: url(../img/linkedin.png);
 }
 .blogFooter{
         background-color: #F2FFFC;
@@ -126,13 +133,25 @@ ul li a{
 .subtitle{
 	clear:both;
 	font-size: 30px;
+	padding: 10px;
 }
-.foto-perfil, .navegacao-site{
+.foto-perfil{
+	width: 200px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-bottom: 10px solid black;
+	border-left: 10px solid black;
+}
+.navegacao-site{
 	float: right;
 	width: 15%;
 	border-bottom: 10px solid black;
 	border-left: 10px solid black;
 	box-sizing: border-box;
+	position: relative;
+	top: 210px;
+	right: 0;
 }
 .rodape-bio{
 	clear: both;

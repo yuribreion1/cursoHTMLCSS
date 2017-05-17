@@ -1,0 +1,18 @@
+.portifolio li{
+	display: inline-block;
+}
+.portifolio-pictures{
+	border: 8px solid black;
+	background-color: #FAFFFC;
+	padding: 16px 16px;
+	margin: 16px 16px;
+	text-align: center;
+	box-sizing: border-box;
+}
+.portifolio li{
+	display: inline-block;
+	width: 45%;
+}
+.image{
+	width: 90%;
+}
