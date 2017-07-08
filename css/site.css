@@ -119,11 +119,11 @@ ul li a{
     font-size: 1.6rem;
     text-align: center;
     background-color: #E6E7E8;
-		text-decoration: none;
+	text-decoration: none;
 }
 .sidebar{
     text-transform: lowercase;
-		color: white;
+	color: white;
 }
 .fiat{
 	float: right;
