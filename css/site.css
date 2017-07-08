@@ -8,7 +8,6 @@ body {
   line-height: 1.5;
 }
 header{
-	text-transform: uppercase;
 	font-size: 10rem;
 	border-bottom: 0.7rem solid black;
 }
@@ -36,7 +35,6 @@ main h1 {
 
 p {
 	text-align: justify;
-	padding: 1rem;
 }
 blockquote, aside,  footer{
     padding: 1rem;
@@ -89,6 +87,9 @@ ul li{
 /* função display usada para acertar o tamanho da imagem no link */
 ul li a{
     color: inherit;
+}
+.titulo{
+	text-transform: uppercase;
 }
 .icones-sociais a {
     width: 2.5rem;
