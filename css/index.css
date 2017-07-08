@@ -80,7 +80,7 @@
 .blog {
     background-color: #999;
     color: #FFF;
-    border-bottom: 10px solid #851944;
+    border-bottom: .2em solid #851944;
     margin-bottom: 8rem;
 }
 .blog li a {
@@ -95,7 +95,7 @@ header{
 footer {
     background-color: #000;
     color: #FFF;
-    border-top: 0.7rem solid #851944;
+    border-top: .2em solid #851944;
 }
 footer a {
     color: #F99;
