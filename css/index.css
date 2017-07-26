@@ -1,6 +1,11 @@
 .foto-home {
     height: 12rem;
     margin-top: 2rem;
+	-moz-border-radius: 8rem;
+	-ms-border-radius: 8rem;
+	-webkit-border-radius: 8rem;
+	-o-border-radius: 8rem;
+	border-radius: 8rem
 }
 .palavra-home{
     position: absolute;
@@ -73,14 +78,41 @@
     right: 10%;
     font-size: 1.2rem;
 }
+.blog {
+    background-color: #999;
+    color: #FFF;
+    border-bottom: 0.7rem solid #851944;
+    margin-bottom: 6rem;
+    position: relative;
+}
 .inicio-post{
     color: black;
     background-color: #F2FFFC;
     position: absolute;
     top: 3em;
     right: 3em;
-    height: 6em;
     padding: 1em;
+}
+.blog .inicio-post{
+	position: absolute;
+    top: 4em;
+    left: 30%;
+    right: 4em;
+    background-color: #F2FFFC;
+    color: #000;
+    padding: 1.5em;
+}
+.blog li{
+	width: 30%;
+}
+.blog li a {
+    color: #FCF;
+}
+.blog .postagem-recente{
+	background-color: #F2FFFC;
+}
+.blog .postagem-recente a{
+	color: #F26;
 }
 .lista-desordenada li{
     padding: 0.5rem;
@@ -158,16 +190,6 @@
 .trabalhos img {
     width: 100%;
     display: block;
-}
-.blog {
-    background-color: #999;
-    color: #FFF;
-    border-bottom: 0.7rem solid #851944;
-    margin-bottom: 6rem;
-    position: relative;
-}
-.blog li a {
-    color: #FCF;
 }
 small{
     margin-left: 1rem;
