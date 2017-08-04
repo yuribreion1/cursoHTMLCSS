@@ -7,12 +7,37 @@
 	-o-border-radius: 8rem;
 	border-radius: 8rem
 }
+.banner-twitter{
+  width: 14em;
+  line-height: 1;
+  padding: 1em 0;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  background-color: #3C1D3D;
+  color: white;
+  border: .25em solid black;
+  font-size: 0.8em;
+  font-family: "Open Sans Condensed", sans-serif;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform-origin: 0 0;
+  transform: translate(6.5754em, -2.4749em) rotate(45deg);
+}
+
+.enfase-titulo{
+  color: #851944;
+  font-size: 1rem;
+  transform: skew(-10deg) rotate(-5deg);
+  display: inline-block;
+}
 .palavra-home{
     position: absolute;
     font-family: "Oxygen";
     opacity: 0.6;
 }
-/*  -- Left items floated -- 
+/*  -- Left items floated --
     .eficiencia
     .acessibilidade
     .boas-praticas
@@ -21,62 +46,73 @@
     top: 58%;
     left: 15%;
     font-size: 1.2rem;
+    transform: rotate(-8deg);
 }
 .boas-praticas{
     top: 35%;
     right: 83%;
     font-size: 1.2rem;
+    transform: rotate(12deg);
 }
 .javascript {
     top: 80%;
     right: 72%;
     font-size: 1.2rem;
+    transform: rotate(20deg);
 }
 .design {
     top: 40%;
     left: 30%;
     font-size: 1.2rem;
+    transform: rotate(-13deg);
 }
 .html5 {
     bottom: 70%;
     left: 20%;
     font-size: 1.2rem;
+    transform: rotate(5deg);
 }
 
-/*  -- Right items floated -- 
+/*  -- Right items floated --
     .codigo-limpo
     .css3
-    .html5 
+    .html5
 */
 .codigo-limpo{
     top: 18%;
     right: 28%;
     font-size: 1.2rem;
+    transform: rotate(9deg);
 }
 .css3{
     top: 52%;
     right: 30%;
     font-size: 1.2rem;
+    transform: rotate(-12deg);
 }
 .responsivo {
     top: 73%;
     right: 20%;
     font-size: 1.2rem;
+    transform: rotate(-15deg);
 }
 .otimizacoes {
     top: 50%;
     right: 14%;
     font-size: 1.2rem;
+    transform: rotate(12deg);
 }
 .agilidade {
     top: 33%;
     right: 21%;
     font-size: 1.2rem;
+    transform: rotate(8deg);
 }
 .eficiencia {
     top: 28%;
     right: 10%;
     font-size: 1.2rem;
+    transform: rotate(-15deg);
 }
 .blog {
     background-color: #999;
@@ -121,6 +157,7 @@
     color: #99A;
     line-height: 1;
     padding: 2rem;
+    text-align: center;
 }
 .saudacao-inicio {
     color: #889;
@@ -167,7 +204,7 @@
     font-size: 3rem;
     color: white;
     background-color: #851944;
-    text-align: center;    
+    text-align: center;
 }
 .trabalhos {
     background-color: #3C1D3D;
