@@ -54,25 +54,25 @@
     top: 50%;
     left: 35%;
     font-size: 1.2rem;
-    transform: translate(-50%, -50%) rotate(-8deg) translateZ(3px);
+    transform: translate(-50%, -50%) rotate(-8deg) translateZ(3px) scale(0.50);
 }
 .boas-praticas{
     top: 40%;
     right: 30%;
     font-size: 1.2rem;
-    transform: translate(-50%, -50%) rotate(-5deg) translateZ(2px);
+    transform: translate(-50%, -50%) rotate(-5deg) translateZ(2px) scale(0,50);
 }
 .javascript {
     top: 70%;
     right: 70%;
     font-size: 1.2rem;
-    transform: translate(-50%, -50%) rotate(8deg) translateZ(2px);
+    transform: translate(-50%, -50%) rotate(8deg) translateZ(2px) scale(1);
 }
 .design {
     top: 40%;
     left: 30%;
     font-size: 1.2rem;
-    transform: translate(-50%, -50%) rotate(-13deg) translateZ(3px);
+    transform: translate(-50%, -50%) rotate(-13deg) translateZ(3px) scale(1);
 }
 .html5 {
     bottom: 70%;
