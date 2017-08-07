@@ -7,6 +7,14 @@
 	-o-border-radius: 8rem;
 	border-radius: 8rem
 }
+.lista-header{
+  perspective: 6px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
 .banner-twitter{
   width: 14em;
   line-height: 1;
@@ -43,34 +51,41 @@
     .boas-praticas
 */
 .acessibilidade {
-    top: 58%;
-    left: 15%;
+    top: 50%;
+    left: 35%;
     font-size: 1.2rem;
-    transform: rotate(-8deg);
+    transform: translate(-50%, -50%) rotate(-8deg) translateZ(3px);
 }
 .boas-praticas{
-    top: 35%;
-    right: 83%;
+    top: 40%;
+    right: 30%;
     font-size: 1.2rem;
-    transform: rotate(12deg);
+    transform: translate(-50%, -50%) rotate(-5deg) translateZ(2px);
 }
 .javascript {
-    top: 80%;
-    right: 72%;
+    top: 70%;
+    right: 70%;
     font-size: 1.2rem;
-    transform: rotate(20deg);
+    transform: translate(-50%, -50%) rotate(8deg) translateZ(2px);
 }
 .design {
     top: 40%;
     left: 30%;
     font-size: 1.2rem;
-    transform: rotate(-13deg);
+    transform: translate(-50%, -50%) rotate(-13deg) translateZ(3px);
 }
 .html5 {
     bottom: 70%;
-    left: 20%;
+    left: 30%;
     font-size: 1.2rem;
-    transform: rotate(5deg);
+    transform: translate(-50%, -50%) rotate(5deg) translateZ(1px);
+}
+
+.responsivo {
+    top: 63%;
+    left: 35%;
+    font-size: 1.2rem;
+    transform: translate(-50%, -50%) rotate(-15deg) translateZ(2px);
 }
 
 /*  -- Right items floated --
@@ -82,31 +97,25 @@
     top: 18%;
     right: 28%;
     font-size: 1.2rem;
-    transform: rotate(9deg);
+    transform: translate(-50%, -50%) rotate(9deg) translateZ(1px);
 }
 .css3{
-    top: 52%;
-    right: 30%;
+    top: 65%;
+    right: 35%;
     font-size: 1.2rem;
-    transform: rotate(-12deg);
-}
-.responsivo {
-    top: 73%;
-    right: 20%;
-    font-size: 1.2rem;
-    transform: rotate(-15deg);
+    transform: translate(-50%, -50%) rotate(-12deg) translateZ(2px);
 }
 .otimizacoes {
-    top: 50%;
-    right: 14%;
+    top: 70%;
+    right: 18%;
     font-size: 1.2rem;
-    transform: rotate(12deg);
+    transform: translate(-50%, -50%) rotate(12deg) translateZ(2px);
 }
 .agilidade {
-    top: 33%;
-    right: 21%;
+    top: 55%;
+    right: 30%;
     font-size: 1.2rem;
-    transform: rotate(8deg);
+    transform: translate(-50%, -50%) rotate(8deg) translateZ(2px);
 }
 .eficiencia {
     top: 28%;
