@@ -1,11 +1,13 @@
 html{
 	font-size: 100%;
+	height: 100%;
 }
 body {
 	font-family: "Crimson Text", "Times New Roman", serif;
 	background-color: #F2FFFC;
 	font-size: 1em;
   line-height: 1.5;
+	height: 100%;
 }
 header{
 	font-size: 10rem;
@@ -68,7 +70,7 @@ aside{
 footer{
     background-color: black;
     color: #F2FFFC;
-		position: fixed;
+		position: sticky;
 		left: 0;
 		bottom: 0;
 		width: 100%;
