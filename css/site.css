@@ -68,9 +68,9 @@ aside{
     text-align: center;
 }
 footer{
-    background-color: black;
+    background-color: rgba(0,0,0, .6);
     color: #F2FFFC;
-		position: sticky;
+		position: fixed;
 		left: 0;
 		bottom: 0;
 		width: 100%;
@@ -92,6 +92,8 @@ ul li a{
 }
 .titulo{
 	text-transform: uppercase;
+	/* Aplicando sombra ao texto do titulo */
+	text-shadow: 0.3rem 0.3rem #000;
 }
 .icones-sociais a {
     width: 2.5rem;
@@ -161,4 +163,7 @@ ul li a{
 }
 .rodape-bio{
 	clear: both;
+}
+.image{
+  box-shadow: 0 0 4px #000;
 }
