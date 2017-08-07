@@ -244,6 +244,13 @@ footer{
     color: white;
     background-color: #851944;
     text-align: center;
+    /* Aplicando técnicas de Gradiente */
+    background-image: linear-gradient(to bottom, #F000, #888, 80%, #000);
+    /* Aplicamos 100% de largura e 200px de altura */
+    background-size: 100%, 200px;
+    /* Aqui dizemos para o efeito não se repetir */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .trabalhos {
     background-color: #3C1D3D;
