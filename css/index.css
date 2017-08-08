@@ -274,6 +274,18 @@ footer{
     width: 100%;
     display: block;
 }
+.foto-bmw{
+  background-image: url(../img/bmw.png);
+}
+.foto-ibm{
+  background-image: url(../img/ibm.png);
+}
+.foto-uol{
+  background-image: url(../img/uol.png);
+}
+.lista-trabalhos{
+  position: relative;
+}
 small{
     margin-left: 1rem;
 }
