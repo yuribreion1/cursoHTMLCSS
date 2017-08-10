@@ -12,6 +12,7 @@ body {
 header{
 	font-size: 10rem;
 	border-bottom: 0.7rem solid black;
+	width: 120rem;
 }
 
 h1, h2 {
@@ -24,7 +25,9 @@ main{
 }
 main div{
     width: 720px;
-    margin: auto;
+	margin: auto;
+	margin-top: 1rem;
+	
 }
 
 main h1 {
@@ -32,7 +35,8 @@ main h1 {
 	background-color: #851944;
 	color: #FFF;
     padding: 1rem;
-    font-size: 4rem;
+	font-size: 4rem;
+	width: 120rem;
 }
 
 p {

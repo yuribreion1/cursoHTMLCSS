@@ -215,6 +215,7 @@ footer{
     font-size: 3rem;
 }
 .botao-index {
+    position: relative;
     padding: 0.6rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
