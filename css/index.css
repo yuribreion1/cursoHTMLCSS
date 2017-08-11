@@ -287,6 +287,15 @@ footer{
 .lista-trabalhos{
   position: relative;
 }
+.rodape-index{
+    background-color: rgba(0,0,0, .6);
+    color: #F2FFFC;
+		position: fixed relative;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		box-sizing: border-box;
+}
 small{
     margin-left: 1rem;
 }
