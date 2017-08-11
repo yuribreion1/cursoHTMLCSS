@@ -157,6 +157,16 @@ footer{
     border-bottom: 0.7rem solid #851944;
     margin-bottom: 6rem;
     position: relative;
+    /* Gerar o efeito tracejado no fundo da parte Blog */ 
+    background-image: linear-gradient(45deg,
+        transparent,
+        transparent 14px,
+        rgba(255, 255, 255, 0.1) 14px,
+        rgba(255, 255, 255, 0.1) 15px,
+        transparent 15px,
+        transparent);
+    background-size: 20px 20px;
+    background-attachment: fixed;
 }
 .inicio-post{
     color: black;
@@ -257,6 +267,15 @@ footer{
     background-color: #3C1D3D;
     border-top: 0.7rem solid #000;
     border-bottom: 0.7rem solid #000;
+    background-image: linear-gradient(135deg,
+        transparent,
+        transparent 14px,
+        rgba(0, 0, 0, 0.1) 14px,
+        rgba(0, 0, 0, 0.1) 15px,
+        transparent 15px,
+        transparent);
+    background-size: 20px 20px;
+    background-attachment: fixed;
 }
 .trabalhos h2 {
     color: #FFF;
