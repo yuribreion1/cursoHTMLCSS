@@ -77,13 +77,7 @@ aside{
     text-align: center;
 }
 footer{
-    background-color: rgba(0,0,0, .6);
-    color: #F2FFFC;
-		position: fixed;
-		left: 0;
-		bottom: 0;
-		width: 100%;
-		box-sizing: border-box;
+	
 }
 nav a {
 		display: block;
@@ -172,6 +166,23 @@ ul li a{
 }
 .rodape-bio{
 	clear: both;
+	color: #F2FFFC;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		box-sizing: border-box;
+		/* Adicão de propriedade gradiente para rodapé */
+		background-image: radial-gradient(ellipse at left bottom,
+		rgba(60, 29, 61, 0.8),
+		rgba(60, 29, 61, 0.8) 65%,
+		black 65%,
+		black 70%,
+		transparent 70%,
+		transparent);
+		width:100%;
+		background-size: 25% 100%;
+		background-repeat: no-repeat;
 }
 .image{
   box-shadow: 0 0 4px #000;
