@@ -350,8 +350,8 @@ main a:hover{
     display: block;
     margin-top: 2rem;
 }
-.blog a:hover,
-.blog a:focus{
+.blog .blog-link:hover,
+.blog .blog-link:focus{
     background-color: #F2FFFC;
 }
 
