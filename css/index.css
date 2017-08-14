@@ -342,4 +342,16 @@ main a:focus,
 main a:hover{
     background-color: #3F0014;
 }
+.inicio-post{
+	display: none;
+}
+.blog a:hover + .inicio-post,
+.blog a:focus + .inicio-post{
+    display: block;
+    margin-top: 2rem;
+}
+.blog a:hover,
+.blog a:focus{
+    background-color: #F2FFFC;
+}
 
