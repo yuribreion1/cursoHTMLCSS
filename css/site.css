@@ -133,11 +133,13 @@ ul li a{
     text-transform: lowercase;
 	color: white;
 }
-.fiat{
+/* Usando pseudoclasse para pegar impares do blockquote */
+blockquote:nth-of-type(odd){
 	float: right;
 	margin: 2rem;
 }
-.petrobras{
+/* Usando pseudoclasse para pegar pares do blockquote */
+blockquote:nth-of-type(even){
 	float: left;
 	margin: 2rem;
 }
@@ -164,6 +166,11 @@ ul li a{
 	top: 13.2rem;
 	right: 0;
 }
+/* Aplicando comportamentos :hover, :focus */
+.navegacao-site a:focus,
+.navegacao-site a:hover{
+	text-shadow: 0 0 2px pink;
+}
 .rodape-bio{
 	clear: both;
 	color: #F2FFFC;
@@ -186,4 +193,16 @@ ul li a{
 }
 .image{
   box-shadow: 0 0 4px #000;
+}
+.citacao-bio:focus,
+.citacao-bio:hover{
+	box-shadow: 0 0 0 99999px rgba(0,0,0,.8);
+}
+.citacao-bio:nth-last-child(odd):focus,
+.citacao-bio:nth-last-of-type(odd):hover{
+	transform: scale(1.2) rotate(5deg);
+}
+.citacao-bio:nth-last-of-type(even):focus,
+.citacao-bio:nth-last-of-type(even):hover{
+	transform: scale(1.2) rotate(-5deg);
 }

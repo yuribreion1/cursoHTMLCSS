@@ -336,3 +336,10 @@ main {
     padding-bottom: 0;
     float: none;
 }
+footer a:hover,
+footer a:focus,
+main a:focus,
+main a:hover{
+    background-color: #3F0014;
+}
+

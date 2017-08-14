@@ -1,0 +1,12 @@
+/* Inicio de acerto para foto em blockquotes, usando z-index e jogando header e rodapé dentro do box-shadow*/
+header,
+.rodape-bio{
+	position: relative;
+}
+/* Joga os elementos citados sobre o box shadow */
+header,
+.rodape-bio,
+.navegacao-site,
+.foto-perfil{
+	z-index: 1;
+}
