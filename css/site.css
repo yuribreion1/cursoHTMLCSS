@@ -52,7 +52,19 @@ blockquote{
     border: 0.8rem solid #C2CCCA;
     margin: 0;
     width: 30ch;
-    box-sizing: border-box;
+	box-sizing: border-box;
+}
+blockquote::before{
+	content: '"';
+	font-family: 'Passion One', cursive;
+	opacity: 0.3;
+	font-size: 10rem;
+	position: absolute;
+	/* Ajustar a posição das aspas */
+	line-height: .8;
+}
+blockquote > p{
+	position: relative;
 }
 cite{
 	font-style: italic;
@@ -102,7 +114,7 @@ ul li a{
     width: 2.5rem;
     height: 2.5rem;
     display: inline-block;
-    font-size: 0;
+	font-size: 0;
 }
 
 .github {
@@ -205,4 +217,14 @@ blockquote:nth-of-type(even){
 .citacao-bio:nth-last-of-type(even):focus,
 .citacao-bio:nth-last-of-type(even):hover{
 	transform: scale(1.2) rotate(-5deg);
+}
+/* Aplicando decoração a primeira letra da Bio */
+.first-par::first-letter,
+.second-par::first-letter{
+	font-size: 200%;
+    font-weight: bold;
+    color: #3C1D3D;
+    text-shadow: 1px 1px #000;
+    margin-right: .2ch;
+    line-height: 1;
 }
