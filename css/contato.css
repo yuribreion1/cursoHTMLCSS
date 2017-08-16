@@ -4,3 +4,9 @@ legend{
 input, textarea, button{
     margin: .5rem;
 }
+input{
+    width: 13.5rem;
+}
+textarea{
+    resize: none;
+}
