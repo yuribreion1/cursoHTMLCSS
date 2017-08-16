@@ -1,0 +1,6 @@
+legend{
+    font-weight: bold;
+}
+input, textarea, button{
+    margin: .5rem;
+}

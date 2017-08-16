@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contato - João da Silva</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="../img/favicon.png">
+    <link rel="stylesheet" href="../css/reset.css" type="text/css">
+    <link rel="stylesheet" href="../css/site.css" type="text/css">
+    <link rel="stylesheet" href="../css/comportamentos.css">
+    <link rel="stylesheet" href="../css/contato.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1 class="titulo">Contato</h1>
+        </header>
+        <div>
+            <form>
+                <!-- Usa-se a fieldset e legend para ajustar a semantica da pagina, separando por assuntos -->
+                <fieldset>
+                    <legend>Dados pessoais</legend>
+                    <label for="nome">Nome: </label>
+                    <!-- Usamos autofocus para ir direto a este campo ao carregar -->
+                    <!-- Usando patterns para permitir somente letras e numeros, acima de 4 caracteres -->
+                    <input id="nome" type="text" required name="nome" placeholder="Ex. João da Silva" autofocus pattern="[A-Za-z0-9 ']{4,}" title="Favor usar letras e números"><br>
+                    <label for="email">E-mail: </label>
+                    <!-- Aqui temos o type email e o required que validam se é realmente um e-mail -->
+                    <input id="email" type="email" required name="email" placeholder="joao@dominio.com"><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Assunto:</legend>
+                    <select name="assunto">
+                        <optgroup>
+                            <option value="servico">Serviço</option>
+                            <option value="blog">Blog</option>
+                            <option value="outros">Outros</option>
+                        </optgroup>
+                    </select>
+                </br>
+                    <label for="msg">Mensagem: </label><br>
+                    <textarea id="msg" name="mensagem" cols="30" rows="6" placeholder="Insira aqui sua mensagem"></textarea><br>
+                    <button type="submit">Enviar <strong>para mim</strong></button>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <!-- figure é usado para melhorar a semantica para imagens -->
+    <figure>
+        <!-- parametro alt usado junto com o img para dar uma descrição a imagem -->
+        <img src="../img/eu.jpg" alt="Foto do João da Silva" class="foto-perfil">
+    </figure>
+    <!-- aside é o conteudo que é colocado ao lado da pagina -->
+    <aside class="navegacao-site">
+        <h1>João da Silva</h1>
+        <div>
+            <nav>
+                <ul class="sidebar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portifolio.html">Portifólio</a></li>
+                    <li><a href="bio.html">Sobre mim</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+                <ul class="icones-sociais">
+                    <li>
+                        <a href="https://github.com/joaodasilva" class="github">
+																Github
+														</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/joaodasilva" class="twitter">
+																Twitter
+														</a>
+                    </li>
+                    <li>
+                        <a href="https://br.linkedin.com/pub/joão-da-silva/32/4/508" class="linkedin">
+																LinkedIn
+														</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <!-- footer usado para o rodapé, o copy é uma entitdade HTML para copyright -->
+    <footer class="rodape-bio">&copy; João da Silva 2014</footer>
+</body>
+
+</html>
