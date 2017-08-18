@@ -3,9 +3,6 @@ label[for="msg"]{
     font-weight: bold;
     margin-top: 1em;
 }
-label[for]{
-    display: block;
-}
 label[for="outros"]{
     display: inline;
 }
@@ -14,6 +11,17 @@ input:focus{
 }
 input:invalid{
     box-shadow: 0 0 3px red;
+}
+input[type="radio"]{
+    width: 1em;
+}
+/* Ocultando o irmão do input type="radio" */
+input[value="outros"] ~ input{
+    display: none;
+}
+/* Quando selecionado ele mostra o elemento */
+input[value="outros"]:checked ~ input{
+    display: inline;
 }
 input[type="text"],
 input[type="email"],
@@ -54,4 +62,13 @@ input{
 }
 textarea{
     resize: none;
+}
+.opcao{
+    display: block;
+}
+input[name="outro-assunto"]{
+    width: auto;
+}
+.msg{
+    display: block;
 }

@@ -31,16 +31,15 @@
                     <input id="email" type="email" required name="email" placeholder="joao@dominio.com"><br>
                 </fieldset>
                 <fieldset>
-                    <legend>Assunto:</legend>
-                    <select name="assunto">
-                        <optgroup>
-                            <option value="servico">Serviço</option>
-                            <option value="blog">Blog</option>
-                            <option value="outros">Outros</option>
-                        </optgroup>
-                    </select>
-                </br>
-                    <label for="msg">Mensagem: </label><br>
+                    <legend class="assunto">Assunto:</legend>                        
+                        <input checked type="radio" value="consult" id="consultoria" name="assunto">
+                        <label for="consultoria">Consultoria</label>                        
+                        <input type="radio" value="blog" id="blog" name="assunto">
+                        <label for="blog" >Blog</label>                        
+                        <input type="radio" value="outros" id="outros" name="assunto">
+                        <label for="outros" class="marca-outros">Outros</label>
+                        <input type="text" name="outro-assunto" placeholder="Qual seria o assunto?">
+                    <label for="msg" class="msg">Mensagem: </label><br>
                     <textarea id="msg" name="mensagem" cols="30" rows="6" placeholder="Insira aqui sua mensagem" minlength="15" required></textarea><br>
                     <button type="submit">Enviar <strong>para mim</strong></button>
                 </fieldset>

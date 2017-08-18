@@ -321,6 +321,7 @@ small{
 header{
     margin: auto;
     position: relative;
+    width: auto;
 }
 footer {
     border-top: .2em solid #851944;
