@@ -14,7 +14,6 @@ body {
 header {
 	font-size: 10rem;
 	border-bottom: 0.7rem solid black;
-	width: 120rem;
 }
 
 h1,
@@ -40,7 +39,6 @@ main h1 {
 	color: #FFF;
 	padding: 1rem;
 	font-size: 4rem;
-	width: 120rem;
 }
 
 p {
@@ -197,7 +195,7 @@ blockquote:nth-of-type(even) {
 
 .navegacao-site {
 	float: right;
-	width: calc(0.9 * 300px);
+	width: (100% - 0.9 * 300px);
 	border-bottom: 0.7rem solid black;
 	border-left: 0.7rem solid black;
 	box-sizing: border-box;
@@ -217,7 +215,7 @@ blockquote:nth-of-type(even) {
 .rodape-bio {
 	clear: both;
 	color: #F2FFFC;
-	position: fixed;
+	position: relative;
 	left: 0;
 	bottom: 0;
 	width: 100%;
