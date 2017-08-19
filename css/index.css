@@ -1,73 +1,84 @@
-html, body{
-  height: 100%;
-  /* Overflow elimina o excesso de espaço horizontal */
-  overflow-x: hidden;
+html,
+body {
+    height: 100%;
+    /* Overflow elimina o excesso de espaço horizontal */
+    overflow-x: hidden;
 }
-body{
-  perspective: 6px;
-  perspective-origin: 50% 160px;
+
+body {
+    perspective: 6px;
+    perspective-origin: 50% 160px;
 }
-footer{
-  position: sticky;
+
+footer {
+    position: sticky;
 }
+
 .foto-home {
     height: 12rem;
     margin-top: 2rem;
-	-moz-border-radius: 8rem;
-	-ms-border-radius: 8rem;
-	-webkit-border-radius: 8rem;
-	-o-border-radius: 8rem;
-	border-radius: 8rem;
-  /* Aplicando sombra a foto-home */
-  box-shadow: 0 0 1rem #000;
-}
-.titulo-principal .lista-header{
-  transform-style: preserve-3d;
-}
-.lista-header{
-  perspective: 6px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-}
-.banner-twitter{
-  width: 14em;
-  line-height: 1;
-  padding: 1em 0;
-  box-sizing: border-box;
-  text-align: center;
-  text-decoration: none;
-  background-color: #3C1D3D;
-  color: white;
-  border: .25em solid black;
-  font-size: 0.8em;
-  font-family: "Open Sans Condensed", sans-serif;
-  position: absolute;
-  right: 0;
-  top: 0;
-  transform-origin: 0 0;
-  /* Usando alguns calculos que vieram no CSS3 */
-  transform: translate(calc(.707 * (3.5em - 100%) + 100%),calc(-.707 * 3.5em)) rotate(45deg);
+    -moz-border-radius: 8rem;
+    -ms-border-radius: 8rem;
+    -webkit-border-radius: 8rem;
+    -o-border-radius: 8rem;
+    border-radius: 8rem;
+    /* Aplicando sombra a foto-home */
+    box-shadow: 0 0 1rem #000;
 }
 
-.enfase-titulo{
-  color: #851944;
-  font-size: 1rem;
-  transform: skew(-10deg) rotate(-5deg);
-  display: inline-block;
+.titulo-principal .lista-header {
+    transform-style: preserve-3d;
 }
-.palavra-home{
+
+.lista-header {
+    perspective: 6px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.banner-twitter {
+    width: 14em;
+    line-height: 1;
+    padding: 1em 0;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3C1D3D;
+    color: white;
+    border: .25em solid black;
+    font-size: 0.8em;
+    font-family: "Open Sans Condensed", sans-serif;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform-origin: 0 0;
+    /* Usando alguns calculos que vieram no CSS3 */
+    transform: translate(calc(.707 * (3.5em - 100%) + 100%), calc(-.707 * 3.5em)) rotate(45deg);
+}
+
+.enfase-titulo {
+    color: #851944;
+    font-size: 1rem;
+    transform: skew(-10deg) rotate(-5deg);
+    display: inline-block;
+}
+
+.palavra-home {
     position: absolute;
     font-family: "Oxygen";
     opacity: 0.6;
 }
+
+
 /*  -- Left items floated --
     .eficiencia
     .acessibilidade
     .boas-praticas
 */
+
 .acessibilidade {
     top: 20%;
     left: 40%;
@@ -75,13 +86,15 @@ footer{
     transform: translate(-50%, -50%) rotate(-8deg) translateZ(1px) scale(0.50);
     opacity: .5;
 }
-.boas-praticas{
+
+.boas-praticas {
     top: 30%;
     right: 55%;
     font-size: 3rem;
     transform: translate(-50%, -50%) rotate(-5deg) translateZ(-1px);
     opacity: .5;
 }
+
 .javascript {
     top: 27%;
     right: 58%;
@@ -89,6 +102,7 @@ footer{
     transform: translate(-50%, -50%) rotate(8deg) translateZ(2px);
     opacity: .3;
 }
+
 .design {
     top: 15%;
     left: 35%;
@@ -96,6 +110,7 @@ footer{
     transform: translate(-50%, -50%) rotate(-13deg) translateZ(1px);
     opacity: .4;
 }
+
 .html5 {
     bottom: 70%;
     left: 30%;
@@ -103,6 +118,7 @@ footer{
     transform: translate(-50%, -50%) rotate(5deg) translateZ(1px);
     opacity: .5
 }
+
 .responsivo {
     top: 33%;
     left: 31%;
@@ -111,25 +127,29 @@ footer{
     opacity: .6;
 }
 
+
 /*  -- Right items floated --
     .codigo-limpo
     .css3
     .html5
 */
-.codigo-limpo{
+
+.codigo-limpo {
     top: 18%;
     right: 28%;
     font-size: 1.2rem;
     transform: translate(-50%, -50%) rotate(9deg) translateZ(1px);
     opacity: .5;
 }
-.css3{
+
+.css3 {
     top: 30%;
     right: 35%;
     font-size: 1.2rem;
     transform: translate(-50%, -50%) rotate(-12deg) translateZ(1.2px);
     opacity: .3;
 }
+
 .otimizacoes {
     top: 32%;
     right: 18%;
@@ -137,6 +157,7 @@ footer{
     transform: translate(-50%, -50%) rotate(12deg) translateZ(1px);
     opacity: .4;
 }
+
 .agilidade {
     top: 25%;
     right: 40%;
@@ -144,6 +165,7 @@ footer{
     transform: translate(-50%, -50%) rotate(8deg) translateZ(1.5px);
     opacity: .7
 }
+
 .eficiencia {
     top: 28%;
     right: 5%;
@@ -152,24 +174,20 @@ footer{
     transform: translate(-50%, -50%) translateZ(-1px);
     opacity: .4;
 }
+
 .blog {
     background-color: #999;
     color: #FFF;
     border-bottom: 0.7rem solid #851944;
     margin-bottom: 6rem;
     position: relative;
-    /* Gerar o efeito tracejado no fundo da parte Blog */ 
-    background-image: linear-gradient(45deg,
-        transparent,
-        transparent 14px,
-        rgba(255, 255, 255, 0.1) 14px,
-        rgba(255, 255, 255, 0.1) 15px,
-        transparent 15px,
-        transparent);
+    /* Gerar o efeito tracejado no fundo da parte Blog */
+    background-image: linear-gradient(45deg, transparent, transparent 14px, rgba(255, 255, 255, 0.1) 14px, rgba(255, 255, 255, 0.1) 15px, transparent 15px, transparent);
     background-size: 20px 20px;
     background-attachment: fixed;
 }
-.inicio-post{
+
+.inicio-post {
     color: black;
     background-color: #F2FFFC;
     position: absolute;
@@ -177,8 +195,9 @@ footer{
     right: 3em;
     padding: 1em;
 }
-.blog .inicio-post{
-	position: absolute;
+
+.blog .inicio-post {
+    position: absolute;
     top: 4em;
     left: 30%;
     right: 4em;
@@ -186,45 +205,56 @@ footer{
     color: #000;
     padding: 1.5em;
 }
-.blog li{
-	width: 30%;
+
+.blog li {
+    width: 30%;
 }
+
 .blog li a {
     color: #FCF;
 }
-.blog .postagem-recente{
-	background-color: #F2FFFC;
+
+.blog .postagem-recente {
+    background-color: #F2FFFC;
 }
-.blog .postagem-recente a{
-	color: #F26;
+
+.blog .postagem-recente a {
+    color: #F26;
 }
-.lista-desordenada li{
+
+.lista-desordenada li {
     padding: 0.5rem;
 }
+
 .saudacao p {
     color: #99A;
     line-height: 1;
     padding: 2rem;
     text-align: center;
 }
+
 .saudacao-inicio {
     color: #889;
     margin-left: 5rem;
     font-size: 3rem;
 }
+
 .saudacao-ultima-linha {
     display: block;
     margin-left: 15rem;
     padding: 1rem;
 }
+
 .saudacao strong {
     color: #000;
     font-size: 2rem;
 }
+
 .saudacao em {
     color: #851944;
     font-size: 3rem;
 }
+
 .botao-index {
     position: relative;
     padding: 0.6rem;
@@ -241,17 +271,20 @@ footer{
     /*Sombra externa preta e interna branca*/
     box-shadow: 0 0 1rem #000, inset 0 0 .5rem #FFF;
 }
+
 .secao-inicio h2 {
     text-transform: uppercase;
     margin-left: 1rem;
     font-size: 2em;
 }
-.subtitulo-principal{
+
+.subtitulo-principal {
     text-align: center;
     font-size: 1.5rem;
     padding-bottom: 1rem;
 }
-.titulo-principal{
+
+.titulo-principal {
     font-size: 3rem;
     color: white;
     background-color: #851944;
@@ -264,96 +297,109 @@ footer{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 .trabalhos {
     background-color: #3C1D3D;
     border-top: 0.7rem solid #000;
     border-bottom: 0.7rem solid #000;
-    background-image: linear-gradient(135deg,
-        transparent,
-        transparent 14px,
-        rgba(0, 0, 0, 0.1) 14px,
-        rgba(0, 0, 0, 0.1) 15px,
-        transparent 15px,
-        transparent);
+    background-image: linear-gradient(135deg, transparent, transparent 14px, rgba(0, 0, 0, 0.1) 14px, rgba(0, 0, 0, 0.1) 15px, transparent 15px, transparent);
     background-size: 20px 20px;
     background-attachment: fixed;
 }
+
 .trabalhos h2 {
     color: #FFF;
     margin-bottom: 1.5rem;
 }
+
 .trabalhos ul {
     overflow: hidden;
     border: 0.5rem solid black;
     margin: 1rem;
 }
+
 .trabalhos li {
     float: left;
     width: 33.333%;
 }
+
 .trabalhos img {
     width: 100%;
     display: block;
 }
-.foto-bmw{
-  background-image: url(../img/bmw.png);
+
+.foto-bmw {
+    background-image: url(../img/bmw.png);
 }
-.foto-ibm{
-  background-image: url(../img/ibm.png);
+
+.foto-ibm {
+    background-image: url(../img/ibm.png);
 }
-.foto-uol{
-  background-image: url(../img/uol.png);
+
+.foto-uol {
+    background-image: url(../img/uol.png);
 }
-.lista-trabalhos{
-  position: relative;
+
+.lista-trabalhos {
+    position: relative;
 }
-.rodape-index{
-    background-color: rgba(0,0,0, .6);
+
+.rodape-index {
+    background-color: rgba(0, 0, 0, .6);
     color: #F2FFFC;
-		position: fixed relative;
-		left: 0;
-		bottom: 0;
-		width: 100%;
-		box-sizing: border-box;
+    position: fixed relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
-small{
+
+small {
     margin-left: 1rem;
 }
-header{
+
+header {
     margin: auto;
     position: relative;
     width: auto;
 }
+
 footer {
     border-top: .2em solid #851944;
 }
+
 footer a {
     color: #F99;
 }
-footer h2{
+
+footer h2 {
     font-size: 2em;
 }
+
 main {
     width: 100%;
     padding-bottom: 0;
     float: none;
 }
+
 footer a:hover,
 footer a:focus,
 main a:focus,
-main a:hover{
+main a:hover {
     background-color: #3F0014;
 }
-.inicio-post{
-	display: none;
+
+.inicio-post {
+    display: none;
 }
-.blog a:hover + .inicio-post,
-.blog a:focus + .inicio-post{
+
+.blog a:hover+.inicio-post,
+.blog a:focus+.inicio-post {
     display: block;
     margin-top: 2rem;
 }
+
 .blog .blog-link:hover,
-.blog .blog-link:focus{
+.blog .blog-link:focus {
     background-color: #F2FFFC;
 }
-

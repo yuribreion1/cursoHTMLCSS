@@ -1,31 +1,42 @@
 legend,
-label[for="msg"]{
+label[for="msg"] {
     font-weight: bold;
     margin-top: 1em;
 }
-label[for="outros"]{
+
+label[for="outros"] {
     display: inline;
 }
-input:focus{
+
+input:focus {
     background-color: #FFD;
 }
-input:invalid{
+
+input:invalid {
     box-shadow: 0 0 3px red;
 }
-input[type="radio"]{
+
+input[type="radio"] {
     width: 1em;
 }
+
+
 /* Ocultando o irmão do input type="radio" */
-input[value="outros"] ~ input{
+
+input[value="outros"]~input {
     display: none;
 }
+
+
 /* Quando selecionado ele mostra o elemento */
-input[value="outros"]:checked ~ input{
+
+input[value="outros"]:checked~input {
     display: inline;
 }
+
 input[type="text"],
 input[type="email"],
-textarea{
+textarea {
     /* Usando as mesmas propriedades da pagina */
     font-family: inherit;
     font-size: 100%;
@@ -34,6 +45,7 @@ textarea{
     box-sizing: border-box;
     border: 1px solid #ccc;
 }
+
 button {
     /* Precisamos tirar a borda que o navegador coloca por padrão */
     border: 0;
@@ -46,29 +58,38 @@ button {
     margin-left: auto;
     margin-top: 1em;
 }
+
 button:hover,
 button:focus {
     background-color: #8C1D3D;
 }
-fieldset > fieldset{
+
+fieldset>fieldset {
     display: inline;
 }
 
-input, textarea, button{
+input,
+textarea,
+button {
     margin: .5rem;
 }
-input{
+
+input {
     width: 13.5rem;
 }
-textarea{
+
+textarea {
     resize: none;
 }
-.opcao{
+
+.opcao {
     display: block;
 }
-input[name="outro-assunto"]{
+
+input[name="outro-assunto"] {
     width: auto;
 }
-.msg{
+
+.msg {
     display: block;
 }
