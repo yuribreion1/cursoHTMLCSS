@@ -18,7 +18,7 @@ header {
 	border-bottom: 0.7rem solid black;
 }
 /* Definindo animação de 2segundos para aparição do titulo */
-h1{
+header h1{
 	-webkit-animation: aparece 2s;
 	animation: aparece 2s;
 }
