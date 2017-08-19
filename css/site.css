@@ -17,6 +17,30 @@ header {
 	font-size: 10rem;
 	border-bottom: 0.7rem solid black;
 }
+/* Definindo animação de 2segundos para aparição do titulo */
+h1{
+	-webkit-animation: aparece 2s;
+	animation: aparece 2s;
+}
+
+/* 	Keyframes define seu inicio sem opacidade
+	já quando no final o h1 fica invisivel */
+@-webkit-keyframes aparece{
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes aparece{
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 
 h1,
 h2 {
@@ -119,38 +143,49 @@ ul li {
 ul li a {
 	color: inherit;
 }
-.habilidades{
+
+.habilidades {
 	border-collapse: separate;
 	/* Espaçamento entre itens */
 	border-spacing: .25rem;
 	margin: 1em 0;
 }
-.habilidades [colspan]{
+
+.habilidades [colspan] {
 	text-align: center;
 	font-style: italic;
 }
+
 .habilidades [rowspan] {
-    vertical-align: middle;
+	vertical-align: middle;
 }
-th, tr, td{
+
+th,
+tr,
+td {
 	text-align: center;
 	font-family: inherit;
 }
-.habilidades th{
+
+.habilidades th {
 	font-weight: bold;
 }
-.habilidades td{
+
+.habilidades td {
 	background-color: #eee;
 }
+
 .habilidades td,
-.habilidades th{
+.habilidades th {
 	padding: 1em;
 }
-th{
+
+th {
 	background-color: #3C1D3D;
 	color: white;
 }
-td{
+
+td {
 	background-color: #851944;
 	color: black;
 }
@@ -284,8 +319,13 @@ blockquote:nth-of-type(even) {
 .citacao-bio:nth-last-of-type(even):hover {
 	transform: scale(1.2) rotate(-5deg);
 }
-/* Suavizando o efeito sobre a citação */
-.citacao-bio{
+
+
+/* 	Suavizando o efeito sobre a citação 
+	Aplicado delay de 1segundo para box-shadow */
+
+
+.citacao-bio {
 	transition: 1s, box-shadow 2s;
 	transition-delay: 0s, 1s;
 }
@@ -302,6 +342,7 @@ blockquote:nth-of-type(even) {
 	margin-right: .2ch;
 	line-height: 1;
 }
-.estudando{
+
+.estudando {
 	vertical-align: middle;
 }
