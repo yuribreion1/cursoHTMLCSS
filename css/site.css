@@ -125,6 +125,13 @@ ul li a {
 	border-spacing: .25rem;
 	margin: 1em 0;
 }
+.habilidades [colspan]{
+	text-align: center;
+	font-style: italic;
+}
+.habilidades [rowspan] {
+    vertical-align: middle;
+}
 th, tr, td{
 	text-align: center;
 	font-family: inherit;
@@ -277,6 +284,11 @@ blockquote:nth-of-type(even) {
 .citacao-bio:nth-last-of-type(even):hover {
 	transform: scale(1.2) rotate(-5deg);
 }
+/* Suavizando o efeito sobre a citação */
+.citacao-bio{
+	transition: 1s, box-shadow 2s;
+	transition-delay: 0s, 1s;
+}
 
 
 /* Aplicando decoração a primeira letra da Bio */
@@ -289,4 +301,7 @@ blockquote:nth-of-type(even) {
 	text-shadow: 1px 1px #000;
 	margin-right: .2ch;
 	line-height: 1;
+}
+.estudando{
+	vertical-align: middle;
 }
