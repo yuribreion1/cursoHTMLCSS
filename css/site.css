@@ -12,6 +12,7 @@ body {
 }
 
 header {
+	/* Calculando largura */
 	width: calc(90% + 300px);
 	font-size: 10rem;
 	border-bottom: 0.7rem solid black;
@@ -24,6 +25,7 @@ h2 {
 
 main {
 	float: left;
+	/* Fazendo calculo com a diferença do espaço cedido a aside */
 	width: calc(100% - 0.9 * 300px);
 	padding-bottom: 7rem;
 }
@@ -116,6 +118,34 @@ ul li {
 
 ul li a {
 	color: inherit;
+}
+.habilidades{
+	border-collapse: separate;
+	/* Espaçamento entre itens */
+	border-spacing: .25rem;
+	margin: 1em 0;
+}
+th, tr, td{
+	text-align: center;
+	font-family: inherit;
+}
+.habilidades th{
+	font-weight: bold;
+}
+.habilidades td{
+	background-color: #eee;
+}
+.habilidades td,
+.habilidades th{
+	padding: 1em;
+}
+th{
+	background-color: #3C1D3D;
+	color: white;
+}
+td{
+	background-color: #851944;
+	color: black;
 }
 
 .titulo {
