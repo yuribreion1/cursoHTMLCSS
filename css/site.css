@@ -295,7 +295,7 @@ blockquote:nth-of-type(even) {
 .rodape-bio {
 	clear: both;
 	color: #F2FFFC;
-	position: relative;
+	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
