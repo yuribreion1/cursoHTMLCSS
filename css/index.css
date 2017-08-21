@@ -346,7 +346,9 @@ footer {
 }
 
 .trabalhos ul {
-    overflow: hidden;
+    display: flex;
+    flex: 1;
+    /*overflow: hidden;*/
     border: 0.5rem solid black;
     margin: 1rem;
 }

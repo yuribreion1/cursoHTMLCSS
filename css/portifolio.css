@@ -1,8 +1,15 @@
 html, body{
 	height: 100%;
 }
+.portifolio{
+	display: flex;
+	flex-wrap: wrap;
+}
+.portifolio li:first-child{
+	flex-basis: 100%
+}
 .portifolio li{
-	display: inline-block;
+	flex: 1 1 45%;
 }
 .portifolio-pictures{
 	border: 8px solid black;
