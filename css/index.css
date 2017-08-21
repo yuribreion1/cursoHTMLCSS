@@ -276,6 +276,9 @@ footer {
 }
 
 .botao-index {
+    /* Adicionando animação ao botão index */
+    text-decoration: none;
+    transition: .5s;
     position: relative;
     padding: 0.6rem;
     margin-bottom: 2rem;
@@ -407,6 +410,12 @@ footer a:focus,
 main a:focus,
 main a:hover {
     background-color: #3F0014;
+}
+.botao-index:hover,
+.botao-index:focus{
+    background-color:#C54974;
+    color: white;
+    box-shadow: 0 0 1em #FA9;
 }
 
 .inicio-post {

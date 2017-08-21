@@ -17,15 +17,20 @@ header {
 	font-size: 10rem;
 	border-bottom: 0.7rem solid black;
 }
+
+
 /* Definindo animação de 2segundos para aparição do titulo */
-header h1{
+
+header h1 {
 	-webkit-animation: aparece 2s;
 	animation: aparece 2s;
 }
 
+
 /* 	Keyframes define seu inicio sem opacidade
 	já quando no final o h1 fica invisivel */
-@-webkit-keyframes aparece{
+
+@-webkit-keyframes aparece {
 	0% {
 		opacity: 0;
 	}
@@ -33,7 +38,8 @@ header h1{
 		opacity: 1;
 	}
 }
-@keyframes aparece{
+
+@keyframes aparece {
 	0% {
 		opacity: 0;
 	}
@@ -308,6 +314,8 @@ blockquote:nth-of-type(even) {
 .citacao-bio:focus,
 .citacao-bio:hover {
 	box-shadow: 0 0 0 99999px rgba(0, 0, 0, .8);
+	/* Invertendo o delay da citação ao terminar */ 
+	transition-delay: 0s, 1s;
 }
 
 .citacao-bio:nth-last-child(odd):focus,
@@ -324,10 +332,9 @@ blockquote:nth-of-type(even) {
 /* 	Suavizando o efeito sobre a citação 
 	Aplicado delay de 1segundo para box-shadow */
 
-
 .citacao-bio {
-	transition: 1s, box-shadow 2s;
-	transition-delay: 0s, 1s;
+	transition: 1s, box-shadow 1s;
+	transition-delay: 1s, 0s;
 }
 
 
